@@ -23,7 +23,7 @@ const corsOptions = {
   origin: [
     "http://localhost:5173",               // local frontend
     "https://certificate-frontend.vercel.app" , // deployed frontend
-    "https://gleaming-mandazi-0cb9d7.netlify.app"
+    "https://nielitmailautomation.netlify.app/"
   ],
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type", "Authorization"],
