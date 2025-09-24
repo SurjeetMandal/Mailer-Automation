@@ -23,7 +23,7 @@ const corsOptions = {
   origin: [
     "http://localhost:5173",               // local frontend
     "https://certificate-frontend.vercel.app" , // deployed frontend
-    "https://nielitmailautomation.netlify.app/"
+    "https://nielitmailautomation.netlify.app"
   ],
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type", "Authorization"],
